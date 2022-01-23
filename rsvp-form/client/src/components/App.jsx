@@ -1,16 +1,22 @@
 import React from 'react';
-import $ from 'jquery';
+import RegisterForm from './RegisterForm.jsx'
 
 
 
 class App extends React.Component {
   constructor(props) {
     super(props);
+    this.state = {
+    }
 
   }
 
-  render() {
-
+  render(){
+    return(
+      <div className = "main">
+        <RegisterForm />
+      </div>
+    )
   }
 }
 

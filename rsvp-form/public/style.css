@@ -27,14 +27,14 @@ h3 {
   flex-flow: row;
 }
 
-.RSVP {
+.attendee-form {
   display: flex;
   width: 70%;
   margin: 20px;
   flex-flow: column nowrap;
 }
 
-.RSVP label{
+.attendee-form label{
   margin-top: 40px;
 }
 
